@@ -188,4 +188,52 @@
       </div>
     </section>
   </main>
-  
+
+  <div class="modal fade" id="enrollSuccessModal" tabindex="-1" aria-labelledby="enrollSuccessModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content custom-modal">
+        <div class="modal-header border-0 pb-0">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center pb-5 px-4 pt-2">
+          <i class="bi bi-check-circle mb-3 success-modal-icon"></i>
+          <h4 class="text-white fw-bold mb-3" id="enrollSuccessModalLabel">Enrollment Successful!</h4>
+          <p class="modal-description">You have successfully enrolled in this course. Please check
+            your email for further instructions and next steps.</p>
+          <button type="button" class="btn btn-primary-cyan mt-3 px-4 py-2" data-bs-dismiss="modal">Awesome</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="courseDetailsModal" tabindex="-1" aria-labelledby="courseDetailsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content custom-modal">
+        <div class="modal-header border-0 pb-0">
+          <h5 class="modal-title text-white fw-bold ps-2 pt-2" id="courseDetailsModalLabel"><span
+              class="text-cyan">Course</span> Details</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body px-4 pb-4">
+          <hr class="modal-divider">
+          <p class="modal-description line-height-16">This course equips you with the fundamental and advanced skills
+            necessary to excel in the industry. It features comprehensive project-based learning, assignments, and a
+            real-world capstone project.</p>
+          <ul class="modal-list">
+            <li><strong class="text-cyan">Duration:</strong> Fast-tracked curriculum</li>
+            <li><strong class="text-cyan">Level:</strong> Beginner to Advanced</li>
+            <li><strong class="text-cyan">Projects:</strong> 3 Real-time applications</li>
+            <li><strong class="text-cyan">Certificate:</strong> Yes, verifiable certificate provided upon completion
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer border-0 pt-0 px-4 pb-4" style="justify-content: flex-start;">
+          <button type="button" class="btn btn-dark-outline px-4 py-2" style="background-color: rgba(255,255,255,0.05);"
+            data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
