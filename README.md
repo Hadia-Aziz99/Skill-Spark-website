@@ -22,7 +22,7 @@ SkillSpark is a modern, project-based learning platform designed specifically fo
 Below are the screenshots of our platform in action.
 
 ### 1. Home Page
-![Home Page](assets/screenshots/home.png)
+![Home Page](screenshots/HomePageHeader.png)
 *Our landing page featuring the hero section and core value propositions.*
 
 ### 2. Courses Page
