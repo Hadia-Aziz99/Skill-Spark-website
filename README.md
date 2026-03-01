@@ -15,7 +15,6 @@ SkillSpark is a modern, project-based learning platform designed specifically fo
 - **HTML5 & CSS3**: For semantic structure and modern, responsive styling.
 - **Bootstrap 5**: Utilized for a mobile-first approach and rapid layout development.
 - **Bootstrap Icons**: Consistent and sleek iconography across the entire platform.
-- **JavaScript**: Powering interactive elements and smooth user experiences.
 
 ## Website Walkthrough
 
