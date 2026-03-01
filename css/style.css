@@ -23,3 +23,166 @@ body::before {
   pointer-events: none;
 }
 
+.navbar {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: #fff !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-cyan {
+  color: #00d4ff;
+}
+
+.nav-link {
+  color: #8b9bb4 !important;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 8px 16px !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.brand-icon {
+  color: #00d4ff;
+  font-size: 1.2rem;
+}
+
+.brand-cyan {
+  margin-left: 6px;
+}
+
+.nav-link.nav-active {
+  color: #00d4ff !important;
+}
+
+.dropdown-menu {
+  background-color: #1a2535;
+  border: 1px solid #1f3045;
+  border-radius: 12px;
+  padding: 8px 0;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown-item {
+  color: #c0cfe0;
+  font-size: 0.92rem;
+  padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+  background-color: #243044;
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border-color: rgba(0, 212, 255, 0.4);
+  background-color: rgba(0, 212, 255, 0.05);
+  padding: 6px 10px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.3);
+}
+
+.navbar-toggler .bi-list {
+  color: #00d4ff;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.btn-register {
+  background-color: #00d4ff;
+  color: #001219;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 8px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.4);
+  transition: all 0.3s;
+}
+
+.btn-register:hover {
+  box-shadow: 0 0 25px rgba(0, 212, 255, 0.6);
+  transform: translateY(-1px);
+  color: #001219;
+}
+
+.hero-section {
+  padding: 120px 20px 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 80px);
+}
+
+.badge-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #8b9bb4;
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.badge-tag svg {
+  color: #f0a500;
+}
+
+.hero-title {
+  font-size: 6rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+}
+
+.hero-title .text-cyan {
+  color: #00d4ff;
+}
+
+.home-hero-section {
+  padding: 120px 20px 80px;
+  overflow: hidden;
+}
+
+.hero-badge-icon {
+  color: #f0a500;
+}
+
+.hero-main-title {
+  letter-spacing: -1px;
+}
+
+.hero-description {
+  max-width: 600px;
+  color: #8b9bb4;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
