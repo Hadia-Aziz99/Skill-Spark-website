@@ -2,7 +2,7 @@
 
 SkillSpark is a modern, project-based learning platform designed specifically for university students to master in-demand tech skills. Whether you're looking to dive into Web Development, App Development, UI/UX Design, or AI & Data Science, SkillSpark provides the roadmap and community to help you succeed.
 
-## 🚀 Key Features
+##  Key Features
 
 - **Project-Based Learning**: We believe in learning by doing. Every course concludes with a professional, portfolio-ready project.
 - **Vibrant Peer Community**: Join over 10,000 students. Collaborate, share feedback, and grow together in a supportive environment.
@@ -10,14 +10,14 @@ SkillSpark is a modern, project-based learning platform designed specifically fo
 - **Flexible Learning**: Designed for busy student schedules—access high-quality content anytime, anywhere, at your own pace.
 - **Expert-Led Content**: Gain insights directly from industry professionals and experienced developers.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **HTML5 & CSS3**: For semantic structure and modern, responsive styling.
 - **Bootstrap 5**: Utilized for a mobile-first approach and rapid layout development.
 - **Bootstrap Icons**: Consistent and sleek iconography across the entire platform.
 - **JavaScript**: Powering interactive elements and smooth user experiences.
 
-## 📸 Website Walkthrough
+##  Website Walkthrough
 
 Below are the screenshots of our platform in action.
 
@@ -43,7 +43,7 @@ Below are the screenshots of our platform in action.
 
 ---
 
-## 🏁 Getting Started
+##  Getting Started
 
 To view the website locally, simply clone the repository and open `index.html` in your preferred web browser.
 
