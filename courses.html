@@ -2,238 +2,277 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>SkillSpark - Courses</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>SkillSpark - Courses</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <i class="bi bi-lightning-fill brand-icon"></i>
-          Skill<span class="brand-cyan">Spark</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-          <i class="bi bi-list"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="navbar-nav ms-auto align-items-lg-center mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Courses</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item fw-bold" href="courses.html" style="color: #00d4ff">All Courses</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li><a class="dropdown-item" href="#">Web Development</a></li>
-                <li><a class="dropdown-item" href="#">App Development</a></li>
-                <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">AI &amp; Data Science</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-active" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item ms-lg-4 mt-2 mt-lg-0">
-              <a class="btn-register" href="register.html">Register Now</a>
-            </li>
-          </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi bi-lightning-fill brand-icon"></i>
+                    Skill<span class="brand-cyan">Spark</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto align-items-lg-center mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Courses</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item fw-bold" href="courses.html" style="color: #00d4ff">All
+                                        Courses</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                                <li><a class="dropdown-item" href="#">App Development</a></li>
+                                <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">AI &amp; Data Science</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-active" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item ms-lg-4 mt-2 mt-lg-0">
+                            <a class="btn-register" href="register.html">Register Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="courses-hero-section">
+            <div class="container text-center courses-hero-container">
+                <h1 class="hero-title courses-hero-title">
+                    Our <span class="text-cyan">Courses</span>
+                </h1>
+                <p class="hero-subtitle mb-5 courses-hero-subtitle">
+                    Industry-aligned, project-based courses to take you from beginner to job-ready.
+                </p>
+            </div>
+        </section>
+
+        <section class="courses-card-grid container pb-5 mb-5">
+            <div class="row g-4 justify-content-center" style="max-width: 1200px; margin: 0 auto;">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="courses-card">
+                        <span class="courses-price">$49</span>
+                        <div class="courses-icon-wrapper icon-wrapper-cyan">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <h4 class="courses-title">Web Development</h4>
+                        <div class="courses-meta">12 Weeks &bull; Beginner &ndash; Advanced</div>
+                        <p class="courses-desc">HTML, CSS, JavaScript, React & Node.js. Build production-ready websites
+                            and
+                            full-stack applications.</p>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095"
+                                data-bs-toggle="modal" data-bs-target="#enrollSuccessModal">Enroll Now</button>
+                            <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
+                                data-bs-target="#courseDetailsModal">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="courses-card">
+                        <span class="courses-price">$59</span>
+                        <div class="courses-icon-wrapper icon-wrapper-orange">
+                            <i class="bi bi-phone"></i>
+                        </div>
+                        <h4 class="courses-title">App Development</h4>
+                        <div class="courses-meta">14 Weeks &bull; Intermediate</div>
+                        <p class="courses-desc">Flutter, React Native & Swift. Create stunning cross-platform mobile
+                            applications.
+                        </p>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095"
+                                data-bs-toggle="modal" data-bs-target="#enrollSuccessModal">Enroll Now</button>
+                            <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
+                                data-bs-target="#courseDetailsModal">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="courses-card">
+                        <span class="courses-price">$39</span>
+                        <div class="courses-icon-wrapper icon-wrapper-purple">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                        <h4 class="courses-title">UI/UX Design</h4>
+                        <div class="courses-meta">10 Weeks &bull; Beginner</div>
+                        <p class="courses-desc">Figma, prototyping & user research. Design interfaces people love to
+                            use.</p>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095"
+                                data-bs-toggle="modal" data-bs-target="#enrollSuccessModal">Enroll Now</button>
+                            <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
+                                data-bs-target="#courseDetailsModal">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="courses-card">
+                        <span class="courses-price">$69</span>
+                        <div class="courses-icon-wrapper icon-wrapper-cyan">
+                            <i class="bi bi-bar-chart"></i>
+                        </div>
+                        <h4 class="courses-title">AI &amp; Data Science</h4>
+                        <div class="courses-meta">16 Weeks &bull; Intermediate &ndash; Advanced</div>
+                        <p class="courses-desc">Python, TensorFlow & ML. Harness the power of artificial intelligence
+                            and big data.
+                        </p>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095"
+                                data-bs-toggle="modal" data-bs-target="#enrollSuccessModal">Enroll Now</button>
+                            <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
+                                data-bs-target="#courseDetailsModal">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="courses-card">
+                        <span class="courses-price">$55</span>
+                        <div class="courses-icon-wrapper icon-wrapper-red">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+                        <h4 class="courses-title">Cybersecurity</h4>
+                        <div class="courses-meta">12 Weeks &bull; Intermediate</div>
+                        <p class="courses-desc">Ethical hacking, network security & penetration testing. Defend against
+                            modern
+                            threats.</p>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095"
+                                data-bs-toggle="modal" data-bs-target="#enrollSuccessModal">Enroll Now</button>
+                            <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
+                                data-bs-target="#courseDetailsModal">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="courses-card">
+                        <span class="courses-price">$59</span>
+                        <div class="courses-icon-wrapper icon-wrapper-blue">
+                            <i class="bi bi-cloud"></i>
+                        </div>
+                        <h4 class="courses-title">Data Engineering</h4>
+                        <div class="courses-meta">14 Weeks &bull; Advanced</div>
+                        <p class="courses-desc">SQL, Spark, Airflow & cloud pipelines. Build scalable data
+                            infrastructure.</p>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095"
+                                data-bs-toggle="modal" data-bs-target="#enrollSuccessModal">Enroll Now</button>
+                            <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
+                                data-bs-target="#courseDetailsModal">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <div class="modal fade" id="enrollSuccessModal" tabindex="-1" aria-labelledby="enrollSuccessModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content custom-modal">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5 px-4 pt-2">
+                    <i class="bi bi-check-circle mb-3 success-modal-icon"></i>
+                    <h4 class="text-white fw-bold mb-3" id="enrollSuccessModalLabel">Enrollment Successful!</h4>
+                    <p class="modal-description">You have successfully enrolled in this course. Please check
+                        your email for further instructions and next steps.</p>
+                    <button type="button" class="btn btn-primary-cyan mt-3 px-4 py-2"
+                        data-bs-dismiss="modal">Awesome</button>
+                </div>
+            </div>
         </div>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <section class="courses-hero-section">
-      <div class="container text-center courses-hero-container">
-        <h1 class="hero-title courses-hero-title">
-          Our <span class="text-cyan">Courses</span>
-        </h1>
-        <p class="hero-subtitle mb-5 courses-hero-subtitle">
-          Industry-aligned, project-based courses to take you from beginner to job-ready.
-        </p>
-      </div>
-    </section>
-
-    <section class="courses-card-grid container pb-5 mb-5">
-      <div class="row g-4 justify-content-center" style="max-width: 1200px; margin: 0 auto;">
-
-        <div class="col-lg-4 col-md-6">
-          <div class="courses-card">
-            <span class="courses-price">$49</span>
-            <div class="courses-icon-wrapper icon-wrapper-cyan">
-              <i class="bi bi-globe"></i>
-            </div>
-            <h4 class="courses-title">Web Development</h4>
-            <div class="courses-meta">12 Weeks &bull; Beginner &ndash; Advanced</div>
-            <p class="courses-desc">HTML, CSS, JavaScript, React & Node.js. Build production-ready websites and
-              full-stack applications.</p>
-            <div class="d-flex gap-2">
-              <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095" data-bs-toggle="modal"
-                data-bs-target="#enrollSuccessModal">Enroll Now</button>
-              <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
-                data-bs-target="#courseDetailsModal">Details</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="courses-card">
-            <span class="courses-price">$59</span>
-            <div class="courses-icon-wrapper icon-wrapper-orange">
-              <i class="bi bi-phone"></i>
-            </div>
-            <h4 class="courses-title">App Development</h4>
-            <div class="courses-meta">14 Weeks &bull; Intermediate</div>
-            <p class="courses-desc">Flutter, React Native & Swift. Create stunning cross-platform mobile applications.
-            </p>
-            <div class="d-flex gap-2">
-              <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095" data-bs-toggle="modal"
-                data-bs-target="#enrollSuccessModal">Enroll Now</button>
-              <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
-                data-bs-target="#courseDetailsModal">Details</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="courses-card">
-            <span class="courses-price">$39</span>
-            <div class="courses-icon-wrapper icon-wrapper-purple">
-              <i class="bi bi-eye"></i>
-            </div>
-            <h4 class="courses-title">UI/UX Design</h4>
-            <div class="courses-meta">10 Weeks &bull; Beginner</div>
-            <p class="courses-desc">Figma, prototyping & user research. Design interfaces people love to use.</p>
-            <div class="d-flex gap-2">
-              <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095" data-bs-toggle="modal"
-                data-bs-target="#enrollSuccessModal">Enroll Now</button>
-              <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
-                data-bs-target="#courseDetailsModal">Details</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="courses-card">
-            <span class="courses-price">$69</span>
-            <div class="courses-icon-wrapper icon-wrapper-cyan">
-              <i class="bi bi-bar-chart"></i>
-            </div>
-            <h4 class="courses-title">AI &amp; Data Science</h4>
-            <div class="courses-meta">16 Weeks &bull; Intermediate &ndash; Advanced</div>
-            <p class="courses-desc">Python, TensorFlow & ML. Harness the power of artificial intelligence and big data.
-            </p>
-            <div class="d-flex gap-2">
-              <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095" data-bs-toggle="modal"
-                data-bs-target="#enrollSuccessModal">Enroll Now</button>
-              <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
-                data-bs-target="#courseDetailsModal">Details</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="courses-card">
-            <span class="courses-price">$55</span>
-            <div class="courses-icon-wrapper icon-wrapper-red">
-              <i class="bi bi-shield-lock"></i>
-            </div>
-            <h4 class="courses-title">Cybersecurity</h4>
-            <div class="courses-meta">12 Weeks &bull; Intermediate</div>
-            <p class="courses-desc">Ethical hacking, network security & penetration testing. Defend against modern
-              threats.</p>
-            <div class="d-flex gap-2">
-              <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095" data-bs-toggle="modal"
-                data-bs-target="#enrollSuccessModal">Enroll Now</button>
-              <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
-                data-bs-target="#courseDetailsModal">Details</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="courses-card">
-            <span class="courses-price">$59</span>
-            <div class="courses-icon-wrapper icon-wrapper-blue">
-              <i class="bi bi-cloud"></i>
-            </div>
-            <h4 class="courses-title">Data Engineering</h4>
-            <div class="courses-meta">14 Weeks &bull; Advanced</div>
-            <p class="courses-desc">SQL, Spark, Airflow & cloud pipelines. Build scalable data infrastructure.</p>
-            <div class="d-flex gap-2">
-              <button class="btn btn-primary-cyan flex-grow-1 text-center py-2 fs-095" data-bs-toggle="modal"
-                data-bs-target="#enrollSuccessModal">Enroll Now</button>
-              <button class="btn btn-dark-outline py-2 border-0 bg-white-05 fs-095" data-bs-toggle="modal"
-                data-bs-target="#courseDetailsModal">Details</button>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-  </main>
-
-  <div class="modal fade" id="enrollSuccessModal" tabindex="-1" aria-labelledby="enrollSuccessModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content custom-modal">
-        <div class="modal-header border-0 pb-0">
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body text-center pb-5 px-4 pt-2">
-          <i class="bi bi-check-circle mb-3 success-modal-icon"></i>
-          <h4 class="text-white fw-bold mb-3" id="enrollSuccessModalLabel">Enrollment Successful!</h4>
-          <p class="modal-description">You have successfully enrolled in this course. Please check
-            your email for further instructions and next steps.</p>
-          <button type="button" class="btn btn-primary-cyan mt-3 px-4 py-2" data-bs-dismiss="modal">Awesome</button>
-        </div>
-      </div>
     </div>
-  </div>
 
-  <div class="modal fade" id="courseDetailsModal" tabindex="-1" aria-labelledby="courseDetailsModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content custom-modal">
-        <div class="modal-header border-0 pb-0">
-          <h5 class="modal-title text-white fw-bold ps-2 pt-2" id="courseDetailsModalLabel"><span
-              class="text-cyan">Course</span> Details</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal fade" id="courseDetailsModal" tabindex="-1" aria-labelledby="courseDetailsModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content custom-modal">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title text-white fw-bold ps-2 pt-2" id="courseDetailsModalLabel"><span
+                            class="text-cyan">Course</span> Details</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body px-4 pb-4">
+                    <hr class="modal-divider">
+                    <p class="modal-description line-height-16">This course equips you with the fundamental and advanced
+                        skills
+                        necessary to excel in the industry. It features comprehensive project-based learning,
+                        assignments, and a
+                        real-world capstone project.</p>
+                    <ul class="modal-list">
+                        <li><strong class="text-cyan">Duration:</strong> Fast-tracked curriculum</li>
+                        <li><strong class="text-cyan">Level:</strong> Beginner to Advanced</li>
+                        <li><strong class="text-cyan">Projects:</strong> 3 Real-time applications</li>
+                        <li><strong class="text-cyan">Certificate:</strong> Yes, verifiable certificate provided upon
+                            completion
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0 pt-0 px-4 pb-4" style="justify-content: flex-start;">
+                    <button type="button" class="btn btn-dark-outline px-4 py-2"
+                        style="background-color: rgba(255,255,255,0.05);" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body px-4 pb-4">
-          <hr class="modal-divider">
-          <p class="modal-description line-height-16">This course equips you with the fundamental and advanced skills
-            necessary to excel in the industry. It features comprehensive project-based learning, assignments, and a
-            real-world capstone project.</p>
-          <ul class="modal-list">
-            <li><strong class="text-cyan">Duration:</strong> Fast-tracked curriculum</li>
-            <li><strong class="text-cyan">Level:</strong> Beginner to Advanced</li>
-            <li><strong class="text-cyan">Projects:</strong> 3 Real-time applications</li>
-            <li><strong class="text-cyan">Certificate:</strong> Yes, verifiable certificate provided upon completion
-            </li>
-          </ul>
-        </div>
-        <div class="modal-footer border-0 pt-0 px-4 pb-4" style="justify-content: flex-start;">
-          <button type="button" class="btn btn-dark-outline px-4 py-2" style="background-color: rgba(255,255,255,0.05);"
-            data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
     </div>
-  </div>
 
+    <footer class="mt-5" style="border-top: 1px solid rgba(255, 255, 255, 0.05)">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" style="color: #8b9bb4; font-size: 0.95rem">
+                    &copy; 2026 SkillSpark | All rights reserved.
+                </div>
+                <div class="col-md-6 d-flex justify-content-center justify-content-md-end gap-3">
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
